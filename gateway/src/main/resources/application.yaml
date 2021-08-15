@@ -1,10 +1,12 @@
 spring:
+# 对接阿里sentinel
   cloud:
     sentinel:
       transport:
         dashboard: localhost:8080
         port: 8080
       eager: true
+# 对接spring-boot-admin
   boot:
     admin:
       client:
