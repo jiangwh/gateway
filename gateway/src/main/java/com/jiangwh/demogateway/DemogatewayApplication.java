@@ -29,7 +29,7 @@ public class DemogatewayApplication {
 	}
 
 
-	//	@Bean
+	@Bean
 	public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
 		//@formatter:off
 		return builder.routes()

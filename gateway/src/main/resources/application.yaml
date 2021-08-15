@@ -1,4 +1,10 @@
 spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8080
+      eager: true
   boot:
     admin:
       client:
@@ -32,3 +38,7 @@ management:
 logging:
   level:
     root: INFO
+
+server:
+  port: 9000
+

@@ -71,6 +71,17 @@
 			<version>2.2.4</version>
 		</dependency>
 
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-alibaba-sentinel-gateway</artifactId>
+			<version>2.2.3.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+			<version>2.2.3.RELEASE</version>
+        </dependency>
+
 	</dependencies>
 
 	<dependencyManagement>
