@@ -1,5 +1,7 @@
-package com.jiangwh;
+package com.jiangwh.service;
 
+import com.jiangwh.domain.City;
+import com.jiangwh.domain.User;
 import graphql.kickstart.tools.GraphQLQueryResolver;
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.jiangwh;
+package com.jiangwh.domain;
 
 public enum City {
 	hangzhou,

@@ -1,4 +1,4 @@
-package com.jiangwh;
+package com.jiangwh.domain;
 
 import lombok.Data;
 
