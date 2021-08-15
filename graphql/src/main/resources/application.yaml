@@ -7,3 +7,13 @@ graphql:
 spring:
   application:
     name: graphql
+  datasource:
+    url: jdbc:h2:mem:jpadb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: mypass
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  data:
+    rest:
+      base-path: /api
