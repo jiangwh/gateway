@@ -25,6 +25,7 @@ public class RulesController {
 	@GetMapping("/gateway")
 	@SentinelResource("gateway")
 	public Set<GatewayFlowRule> apiGateway() {
+
 		return GatewayRuleManager.getRules();
 	}
 
